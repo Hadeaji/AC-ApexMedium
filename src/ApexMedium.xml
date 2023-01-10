@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="avertra corp.apexmedium.ApexMedium" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Apex Medium</name>
+    <description>A widget to hold ApexCharts</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="Data Reseptor">
+            <property key="series" type="string" required="true">
+                <caption>Series JSON</caption>
+                <description>Series JSON as a stringified JSON</description>
+            </property>
+            <property key="options" type="string" required="true">
+                <caption>Options JSON</caption>
+                <description>Options JSON as a stringified JSON</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
