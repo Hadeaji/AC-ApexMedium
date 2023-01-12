@@ -10,6 +10,8 @@ export function ApexMedium(props) {
             widgetTabIndex={props.tabIndex}
             chartOptions={props.options}
             chartSeries={props.series}
+            chartType={props.chartType}
+            labelUnite={props.labelUnite}
         />
     );
 }

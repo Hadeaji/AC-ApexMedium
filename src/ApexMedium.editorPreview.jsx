@@ -9,6 +9,8 @@ export function preview(props) {
             widgetTabIndex={props.tabIndex}
             chartOptions={props.options}
             chartSeries={props.series}
+            chartType={props.chartType}
+            labelUnite={props.labelUnite}
         />
     );
 }

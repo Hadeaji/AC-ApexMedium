@@ -16,6 +16,14 @@
                 <caption>Options JSON</caption>
                 <description>Options JSON as a stringified JSON</description>
             </property>
+            <property key="chartType" type="string" required="true">
+                <caption>Chart Type</caption>
+                <description>Chart type</description>
+            </property>
+            <property key="labelUnite" type="string" required="false">
+                <caption>Label Unite</caption>
+                <description>Label unite to preview on chart</description>
+            </property>
         </propertyGroup>
     </properties>
 </widget>
